@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>Mi Sitio de Blockchain</title>
+</head>
+<body>
+  <!-- Navbar con menú hamburguesa -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  <nav>
+    <div class="logo">
+      <img src="etereo.png" alt="Logo de Blockchain" width="50" />
+    </div>
+    <ul class="menu">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="registro.html" class="btn registro">Registrarse</a></li>
+    <li><a href="inicio-sesion.html" class="btn inicio-sesion">Iniciar Sesión</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección de Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido a nuestro mundo blockchain</h1>
+      <p>Descubre la tecnología del futuro y sus beneficios.</p>
+      
+    </div>
+  </section>
+
+  <!-- Sección de About Us o Beneficios -->
+  <section id="beneficios" class="benefits">
+    <div class="container">
+      <h2>Nuestros Beneficios</h2>
+      <div class="benefit-container">
+        <!-- Cards de beneficios aquí -->
+        <div class="benefit-item">
+          <i class="fab fa-bitcoin"></i>
+          <p>Transacciones seguras</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-shield-alt"></i>
+          <p>Protección de datos</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-chart-line"></i>
+          <p>Crecimiento sostenible</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Cards con Imágenes -->
+  <section id="productos" class="products">
+    <div class="container">
+      <h2>Nuestros Productos</h2>
+      <div class="product-container">
+        <!-- Cards de productos aquí -->
+        <div class="product-card">
+          <img src="foto1.jpg" alt="Bitcoin Icon" class="crypto-icon" />
+          <h3>Wallets Seguros</h3>
+          <p>Almacena tus criptomonedas con total seguridad.</p>
+          <p>Suscripción Mensual: $9.99</p>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+        <div class="product-card">
+          <img src="foto2.jpg" alt="Blockchain Icon" class="crypto-icon" />
+          <h3>Tecnología Blockchain</h3>
+          <p>Explora el potencial de la cadena de bloques.</p>
+          <p>Suscripción Mensual: $4.99</p>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+        <div class="product-card">
+          <img src="foto3.jpg" alt="Smart Contracts Icon" class="crypto-icon" />
+          <h3>Contratos Inteligentes</h3>
+          <p>Automatiza tus transacciones con contratos inteligentes.</p>
+          <p>Suscripción Mensual: $14.99</p>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> Teléfono: +54 (011) 456-7890</p>
+        <p><i class="fas fa-envelope"></i> Correo Electrónico: info@blockchain.com</p>
+      </div>
+      <p>¿Tienes alguna pregunta? Estamos aquí para ayudarte.</p>
+      <form class="contact-form">
+        <label for="comentario">Escribe tus preguntas o comentarios aquí:</label>
+        <input type="text" id="comentario" placeholder="Escribe tu comentario aquí" class="input-comentario">
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2023 Blockchain Inc.</p>
+    <div class="redes-sociales">
+      <a href="https://www.twitter.com/tupagina2" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://vercel.com/tuproyecto" target="_blank"><i class="fas fa-link"></i></a>
+      <a href="https://github.com/tuusuario/turepositorio" target="_blank"><i class="fab fa-github"></i></a>
+      <!-- Agrega más iconos y URLs según tus necesidades -->
+    </div>
+  </footer>
+
+  
+</body>
+</html>
